@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.lesson3;
+package ru.mirea.shevchenko.d.d.lesson3;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,8 +11,6 @@ import androidx.core.view.WindowInsetsCompat;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
-import ru.mirea.sharshov.i.a.intentapp.MainActivity2;
 
 public class MainActivity extends AppCompatActivity {
 

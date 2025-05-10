@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.myapplication;
+package ru.mirea.shevchenko.d.d.myapplication;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("ru.mirea.sharshov.i.a.myapplication", appContext.getPackageName());
+        assertEquals("ru.mirea.shevchenko.d.d.myapplication", appContext.getPackageName());
     }
 }

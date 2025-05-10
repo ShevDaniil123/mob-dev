@@ -1,6 +1,5 @@
-package ru.mirea.sharshov.i.a.simplefragmentapp;
+package ru.mirea.shevchenko.d.d.simplefragmentapp;
 
-import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,10 +11,6 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
-
-import ru.mirea.sharshov.i.a.simplefragmentapp.BlankFragment;
-import ru.mirea.sharshov.i.a.simplefragmentapp.BlankFragment2;
-import ru.mirea.sharshov.i.a.simplefragmentapp.R;
 
 public class MainActivity extends AppCompatActivity {
     private Fragment fragment1, fragment2;

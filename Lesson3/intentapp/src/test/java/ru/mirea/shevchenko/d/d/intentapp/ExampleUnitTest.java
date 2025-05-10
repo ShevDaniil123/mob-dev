@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.intentapp;
+package ru.mirea.shevchenko.d.d.intentapp;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.favoritebook;
+package ru.mirea.shevchenko.d.d.favoritebook;
 
 import org.junit.Test;
 

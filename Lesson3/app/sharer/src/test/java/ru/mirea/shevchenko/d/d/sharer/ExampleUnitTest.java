@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.sharer;
+package ru.mirea.shevchenko.d.d.sharer;
 
 import org.junit.Test;
 

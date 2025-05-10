@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.myltiactivity;
+package ru.mirea.shevchenko.d.d.myltiactivity;
 
 import static android.content.ContentValues.TAG;
 
@@ -77,15 +77,15 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-    button = findViewById(R.id.button);
-    button.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Intent shareIntent = new Intent(Intent.ACTION_SENDTO);
-            shareIntent.setType("text/plan");
-            shareIntent.putExtra(Intent.EXTRA_SUBJECT,"MIREA");
-            shareIntent.putExtra(Intent.EXTRA_TEXT, "Шаршов Иван Александрович");
-            startActivity(Intent.createChooser(shareIntent,"Шаршов И.А."));
+        button = findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent shareIntent = new Intent(Intent.ACTION_SENDTO);
+                shareIntent.setType("text/plan");
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT,"MIREA");
+                shareIntent.putExtra(Intent.EXTRA_TEXT, "Шевченко Даниил Дмитриевич");
+                startActivity(Intent.createChooser(shareIntent,"Шевченко Д.Д."));
             }
         });
 

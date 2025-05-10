@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.intentapp;
+package ru.mirea.shevchenko.d.d.intentapp;
 
 import android.os.Bundle;
 import android.widget.TextView;
@@ -16,17 +16,24 @@ public class MainActivity2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main2);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+        EdgeToEdge.enable(this);
+        setContentView(R.layout.activity_main2);
 
         //Получаем переданные данные
         String dateString = getIntent().getStringExtra("CURRENT_TIME");
         int groupNumber = getIntent().getIntExtra("GROUP_NUMBER", 0);
 
         //Вычисляем квадрат значения номера
-        int squareValue = groupNumber + groupNumber;
+        int squareValue = groupNumber * groupNumber;
 
         //Формируем сообщение
-        String message = "ВАДРАТ ЗНАЧЕНИЯ МОЕГО НОМЕРА(25) ПО СПИСКУ В ГРУППЕ СОСТАВЛЯЕТ ЧИСЛО "
-                + squareValue + " а текущее время " + dateString;
+        String message = "ЗНАЧЕНИЯ МОЕГО НОМЕРА(26) ПО СПИСКУ В ГРУППЕ СОСТАВЛЯЕТ ЧИСЛО "
+                + 26*26 + " а текущее время " + dateString;
 
         //Отображаем сообщение в TextView
         TextView textView = findViewById(R.id.textView);

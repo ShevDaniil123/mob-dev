@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.myltiactivity;
+package ru.mirea.shevchenko.d.d.myltiactivity;
 
 import static android.content.ContentValues.TAG;
 

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.sharshov.i.a.myltiactivity"
+    namespace = "ru.mirea.shevchenko.d.d.myltiactivity"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.sharshov.i.a.myltiactivity"
+        applicationId = "ru.mirea.shevchenko.d.d.myltiactivity"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -29,9 +29,6 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    buildFeatures {
-        viewBinding = true
-    }
 }
 
 dependencies {
@@ -40,8 +37,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(libs.navigation.fragment)
-    implementation(libs.navigation.ui)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

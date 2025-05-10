@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.sharshov.i.a.intentapp"
+    namespace = "ru.mirea.shevchenko.d.d.intentapp"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.sharshov.i.a.intentapp"
+        applicationId = "ru.mirea.shevchenko.d.d.intentapp"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

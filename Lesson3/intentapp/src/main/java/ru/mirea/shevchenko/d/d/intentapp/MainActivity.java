@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.intentapp;
+package ru.mirea.shevchenko.d.d.intentapp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
     public void onClick(View view) {
-        //
         long dateInMillis = System.currentTimeMillis();
         String format = "yyyy-MM-dd HH:mm:ss";
         final SimpleDateFormat sdf = new SimpleDateFormat(format);
@@ -38,5 +38,6 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("CURRENT_TIME", dateString);
         intent.putExtra("GROUP-NUMBER", 25);
         startActivity(intent);
+
     }
 }

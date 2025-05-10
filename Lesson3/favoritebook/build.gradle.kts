@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.sharshov.i.a.favoritebook"
+    namespace = "ru.mirea.shevchenko.d.d.favoritebook"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.sharshov.i.a.favoritebook"
+        applicationId = "ru.mirea.shevchenko.d.d.favoritebook"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

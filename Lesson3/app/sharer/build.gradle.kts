@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.sharshov.i.a.sharer"
+    namespace = "ru.mirea.shevchenko.d.d.sharer"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.sharshov.i.a.sharer"
+        applicationId = "ru.mirea.shevchenko.d.d.sharer"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

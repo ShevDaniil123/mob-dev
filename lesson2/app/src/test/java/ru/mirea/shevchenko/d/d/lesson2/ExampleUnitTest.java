@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.lesson2;
+package ru.mirea.shevchenko.d.d.lesson2;
 
 import org.junit.Test;
 

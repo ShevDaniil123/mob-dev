@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.sharshov.i.a.activitylifecycle"
+    namespace = "ru.mirea.shevchenko.d.d.activitylifestyle"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.sharshov.i.a.activitylifecycle"
+        applicationId = "ru.mirea.shevchenko.d.d.activitylifestyle"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.sharshov.i.a.myapplication"
+    namespace = "ru.mirea.shevchenko.d.d.myapplication"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.sharshov.i.a.myapplication"
+        applicationId = "ru.mirea.shevchenko.d.d.myapplication"
         minSdk = 26
         targetSdk = 35
         versionCode = 1

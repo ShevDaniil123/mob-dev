@@ -1,4 +1,5 @@
-package ru.mirea.sharshov.i.a.simplefragmentapp;
+package ru.mirea.shevchenko.d.d.simplefragmentapp;
+
 
 import android.os.Bundle;
 

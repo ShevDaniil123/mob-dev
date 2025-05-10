@@ -19,14 +19,12 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lesson3"
+rootProject.name = "lesson3"
 include(":app")
-include(":app:intentapp")
-include(":intentapp_v2")
 include(":app:sharer")
-include(":sharer_v2")
 include(":favoritebook")
-include(":sharer_v2:shareactivity")
+include(":intentapp")
 include(":myapplication")
-include(":systemintentsapp")
+include(":myapplication2")
 include(":simplefragmentapp")
+include(":systemintentapp")

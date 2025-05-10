@@ -1,4 +1,4 @@
-package ru.mirea.sharshov.i.a.myapplication;
+package ru.mirea.shevchenko.d.d.myapplication;
 
 import android.os.Bundle;
 

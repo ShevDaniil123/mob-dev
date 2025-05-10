@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "ru.mirea.sharshov.i.a.lesson3"
+    namespace = "ru.mirea.shevchenko.d.d.lesson3"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "ru.mirea.sharshov.i.a.lesson3"
+        applicationId = "ru.mirea.shevchenko.d.d.lesson3"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
@@ -37,7 +37,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation(project(":app:intentapp"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
